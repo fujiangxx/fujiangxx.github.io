@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>旅行网页首页</title>
+	<link rel="stylesheet" href="css/index.css">
+	
+	<link rel="stylesheet" href="iconfont/iconfont.css">
+	<script src="js/jquery-3.2.1.js"></script>
+	<script src="js/canvas.js"></script>
+	<script src='js/index.js'></script>
+</head>
+<body>
+ <div class="pagega">
+	<header>
+		<main>
+			<div class="headerright">
+				<ul>
+					<li class="login">
+						<span>请</span>
+						<a href="" class="headerlogin">登陆</a>
+					</li>
+					<li class='register'>
+						<span>或</span>
+						<a href="" class="headerregister">注册</a>
+					</li>
+					<li class='headermessage'>
+						<div class="message">
+							<!-- <a href="" class="messageicon iconfont">&#xe680;</a> -->
+							<a href="" class="messageword">消息</a>
+							<!-- <b></b>
+							<div class="haedrline1"></div>
+							<div class="haedrline2"></div> -->
+						</div>
+					</li>
+					<li class="headersame headermenu">
+						<a href="" class="menutitle">查看菜单</a>
+						<!-- <b></b> -->
+					</li>
+					<li calss="headersame messageshopt">
+						<a href="" class="messageshop">积分商城</a>
+					<!-- 	<div class="haedrline"></div>
+					    <div class="haedrline"></div> -->
+					</li>
+					<li class='headesame contactt'>
+						<a href="" class="contact">联系客服</a>
+					</li>
+				</ul>
+			</div>
+		</main>
+	</header>
+	
+	<!-- 旅游logo -->
+	<main>
+	      <div class="logo">
+		      <div class="logoleft"></div>
+		       <canvas id='mycanvas' width="500" height="600"></canvas>
+		      <div class="logoright"></div>
+	      </div>
+	</main>
+	<!-- 导航 -->
+	<div class="navi">
+		<main>
+			
+			<div class="naviright">
+				<ul class='navright'>
+					<li class='moren'><a href="">旅游首页</a></li>
+					<li><a href="servic.html">旅游服务</a></li>
+					<li><a href="">特色服务</a></li>
+					<li><a href="">景点介绍</a></li>
+					<li><a href="">导游介绍</a></li>
+					<li><a href="">联系我们</a></li>
+				</ul>
+			</div>
+		</main>
+	</div>
+	<!-- banner -->
+	<div class="banner">
+		<main>
+			<div class="bannertotal">
+				<div class="bannerpicture">
+					<ul class='bannerpic'>
+						<li><a href=""><img src="img/banner11.jpg" alt="">
+
+						     </a></li>
+						<li style="display:none"><a href=""><img src="img/banner12.png" alt="">
+
+						     </a></li>
+						<li style="display:none"><a href=""><img src="img/banner13.jpg" alt="">
+
+						     </a></li>
+						<li style="display:none"><a href=""><img src="img/banner14.jpg" alt="">
+
+						     </a></li>
+						<li style="display:none"><a href=""><img src="img/banner15.jpg" alt="">
+
+						     </a></li>
+					</ul>
+				</div>
+				<div class="lunbo">
+					<ul class='lunboo'>
+						<li class="moren"></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+					</ul>
+				</div>
+			</div>
+		</main>
+	</div>
+	<!-- 搜索框 -->
+	<main>
+		<div class="search">
+		  <div class="seachtotal">
+		   <div class="searchleft">
+		   	  <div class="gonggaoicon">&#xe625;
+		   	  
+		   	  </div>
+		   	  <span>最新公告:</span>
+		   	  <div class="zuixin">
+		   	  	<ul>
+		   	  		<li><a href="">垂钓中心</a></li>
+		   	  		<!-- <li><a href=""></a></li>
+		   	  		<li><a href=""></a></li>
+		   	  		<li><a href=""></a></li> -->
+		   	  	</ul>
+		   	  </div>
+
+		   </div>
+		   <div class="searchright">
+		   	  <div class="searchrightsmall">
+		   	  	 <div class="searchkua">
+		   	  	 	<input type="text" placeholder="请输入关键字...">
+		   	  	 </div>
+		   	  	 <div class="searchmost">
+		   	  	 	<button class="btn searched  seachmostword">搜索全部</button>
+		   	  	 	<button class="btn searched  seachmostsj">
+		   	  	 		<span class="caret"></span>
+		   	  	 	</button>
+		   	  	 </div>
+		   	  </div>
+		   </div>
+		</div>
+	  </div>
+	</main>
+	
+	<!-- 关于我们 -->
+	<div class="aboutus">
+		<main>
+			<div class="aboutustotal">
+				<div class="aboutusword">关于我们</div>
+				<div class="aboutusicon">&#xe622;</div>
+				<div class="aboutusjieshao">
+					<div class="pictureus">
+						<img src="img/gongsi.png" alt="">
+					</div>
+					<div class="uswordtotal">
+						<div class="wordtotal">
+							<p>&nbsp;&nbsp;本公司位于济阳县仁风镇杨家村村西700米处，南临黄河大堤200米。周围无噪音、无灰尘污染，环境静谧，是一家集住宿餐饮、休闲采摘、垂钓娱乐为一体的综合服务场所。
+                            </p>
+                            <p>&nbsp;&nbsp;我公司建有设施齐全的民宿、高标准生态餐厅、鲜食葡萄采摘园、休闲垂钓中心。其中生态餐厅总投资180余万元，总面积7.9亩，外植垂柳、法桐、紫花槐；内植四季常绿花木，走进餐厅附近仿佛走进了丛林之中。葡萄采摘园占地83亩，引进种植的无核富硒红宝石葡萄品种，口感好，营养丰富，是馈赠亲友的佳品。游客可到葡萄园亲自采摘，体味劳动的快乐。休闲垂钓中心水面60余亩，多年来自然繁殖的黄河鲤鱼、鲫鱼、草鱼、小白鲢，吸引了众多的垂钓爱好者。</p>
+						</div>
+						<a href="" class="chakanmore">查看更多>></a>
+					</div>
+				</div>
+			</div>
+		</main>
+	</div>
+	<!-- 乡村旅游 -->
+	<div class="lvyouline">
+		<div class="lvyoutotal">
+			
+			<div class="index_title">
+				<p class="aboutusword">乡村旅游</p>
+				<div class="lvyouicon">&#xe622;</div>
+			</div>
+			<div class="compay">
+				
+				<ul>
+					<li class="item0">
+						<div class="news">
+							<span class='time'>2016-09-27</span>
+							<a href="" class="lvyouplan">湘北农民抱团开发乡村旅游</a>
+						</div>
+					</li>
+					<li class="item1">
+						 <div class="news1">
+							<span class='time'>2016-09-27</span>
+							<a href="" class="lvyouplan">大余开创乡村旅游扶贫开发新模式</a>
+						</div>
+					</li>
+					<li class="item2">
+						<div class="news">
+							<span class='time'>2016-09-27</span>
+							<a href="" class="lvyouplan">公坪镇旅游村建设项目为乡村旅游发展插上腾飞的翅膀</a>
+						</div>
+					</li>
+					<li class="item3">
+						<div class="news1">
+							<span class='time'>2016-09-27</span>
+							<a href="" class="lvyouplan">九三学社调研我州乡村旅游</a>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<a href="" class="lvyoumore">查看更多>></a>
+		</div>
+	</div>
+	<!-- 旅游简略 -->
+	<div class="lvyoujiannve">
+		<div class="jiannvetotal">
+			<div class="jiannvetotalleft">
+				<img src="img/cetu.jpg" alt="">
+			</div>
+			<div class="jiannveright">
+				<div class="jiannverighttu">
+					<ul>
+						<li>
+							<a href="" class="jianlve">
+								<img src="img/lvyoujian1.jpg" alt="">
+								<a href="" class="jianlveword">美丽风景</a>
+							</a>
+							
+						</li>
+						<li>
+							<a href="" class="jianlve">
+								<img src="img/lvyoujian2.jpg" alt="">
+								<a href="" class="jianlveword">风土人情</a>
+							</a>
+							
+						</li>
+						<li>
+							<a href="" class="jianlve">
+								<img src="img/lvyoujian3.jpg" alt="">
+								<a href="" class="jianlveword">荣誉资质</a>
+							</a>
+							
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- 景点介绍 -->
+	<div class="jingdianjie">
+		<div class="jingdianjietotal">
+			<div class="jingdianword">
+				<div class="aboutusword">景点介绍</div>
+				<div class="huabianicon">&#xe622;</div>
+			</div>
+			<div class="jiandiantumore">
+				<div class="diantuleft">
+				    <a href="" class="tuleft"><img src="img/jingdianjieshao1.jpg" alt=""></a>
+				    <div class="fengjingword">
+				    	<p>&nbsp;&nbsp;有人踏足山巅，也曾陷入低谷，而我们不要总是仰望山顶的风景，去超越，去攀登，在顶峰沐浴初阳的光辉，洗去过往的阴霾，于一次远游重新开始我们的生活。如果我们不曾出发，将困在原地，一生都跨不出那一步。</p>
+				    	<p>&nbsp;&nbsp;远行是我们摆脱苦闷的良方，旅游是我们来过这个世界最好的证明之一，出发是我们战胜自己的开端。所以加入我们，去创造属于我们一片天地。</p>
+				    </div>
+				</div>
+				<div class="dianturight">
+				    <div class="fengjingword">
+				    	<p>&nbsp;&nbsp;有人踏足山巅，也曾陷入低谷，而我们不要总是仰望山顶的风景，去超越，去攀登，在顶峰沐浴初阳的光辉，洗去过往的阴霾，于一次远游重新开始我们的生活。如果我们不曾出发，将困在原地，一生都跨不出那一步。</p>
+				    	<p>&nbsp;&nbsp;远行是我们摆脱苦闷的良方，旅游是我们来过这个世界最好的证明之一，出发是我们战胜自己的开端。所以加入我们，去创造属于我们一片天地。</p>
+				    </div>
+					<a href="" class="tuleft"><img src="img/jingdianjieshao1.jpg" alt=""></a>
+				</div>
+			</div>
+			<a href="" class="lvyoumore jingdianmore1">查看更多>></a>
+		</div>
+	</div>
+	<!-- 旅游服务 -->
+	<div class="service">
+		<div class="servicetotal">
+			<div class="servicetop">
+				<div class="aboutusword">旅游服务</div>
+				<div class="huabianicon">&#xe622;</div>
+			</div>
+			<div class="servicemore">
+				<ul>
+					<li>
+						<div class="servicetu">
+							<a href=""><img src="img/service5.jpg" alt=""></a>
+						</div>
+						<div class="serviceword">
+							<a href="" class="wordzi">热门推荐</a>
+						</div>
+					</li>
+					<li>
+						<div class="servicetu">
+							<a href=""><img src="img/service2.jpg" alt=""></a>
+						</div>
+						<div class="serviceword">
+							<a href="" class="wordzi">大好华夏</a>
+						</div>
+					</li>
+					<li>
+						<div class="servicetu">
+							<a href=""><img src="img/service3.jpg" alt=""></a>
+						</div>
+						<div class="serviceword">
+							<a href="" class="wordzi">领国风光</a>
+						</div>
+					</li>
+					<li>
+						<div class="servicetu">
+							<a href=""><img src="img/service4.jpg" alt=""></a>
+						</div>
+						<div class="serviceword">
+							<a href="" class="wordzi">海上迷情</a>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<a href="" class="lvyoumore jingdianmore1">查看更多>></a>
+		</div>
+	</div>
+	<!-- 结尾 -->
+	<div class="lianjieqing">
+	  <div class="footerword">
+		    <div class="lianjieword1">友情链接：</div>
+		    <div class="footersimformation">
+			    <p>
+			    	重庆市远足有限公司,专营
+			    	<a href="" class="themecont">热门推荐</a>
+			    	<a href="" class="themecont">大好华夏</a>
+			    	<a href="" class="themecont">领国风光</a>
+			    	<a href="" class="themecont">海上迷情</a>
+			    	等业务，有意向的客服请拨打电话:
+			    	<a title="0541-45748-475184" href="tel:0541-45748-475184" class="themecont">
+			    		0541-45748-475184
+			    	</a>
+			    </p>
+			</div>
+            <div class="footersimformation1">
+			    <p>
+			        CopyRight © 版权所有:
+                    <a href="" class="themecont">热门推荐</a>
+                    技术支持:
+			    	<a href="" class="themecont">全民网</a>
+			    	<a href="" class="themecont">网站地图</a>
+			    	<a href="" class="themecont">XML</a>
+			    </p>
+		    </div>
+		    <div class="linajie2wei">
+			    <img src="img/erweima.png" alt="" class="erweima">
+			    <a href="" class="Atention">欢迎扫码加入我们</a>
+		    </div>
+	   </div>
+	</div>
+ </div>
+</body>
+</html>

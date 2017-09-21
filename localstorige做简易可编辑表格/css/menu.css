@@ -1,0 +1,59 @@
+/*
+* @Author: Fujiang
+* @Date:   2017-08-22 16:12:25
+* @Last Modified by:   Fujiang
+* @Last Modified time: 2017-08-22 22:30:49
+*/
+main{
+	width: 400px;
+	height: auto;
+	background: #c3f5ff;
+	margin: 20px auto;
+	padding: 10px 20px;
+}
+table{
+	width: 400px;
+	/* height: 500px; */
+	background:white;
+	border-collapse: collapse;
+	text-align: center; 
+}
+th{
+/* 	border-bottom: 1px solid cyan; */
+	font-weight:400;
+	border:1px solid cyan ;
+	padding: 0 4px;
+
+}
+tr{
+	width: 400px;
+    height: 60px;
+    text-align: center;
+    font-size: 18px;
+   	border-bottom: 1px solid cyan;
+   	padding: 0 2px;
+}
+td{
+	border:1px solid cyan ;
+}
+tr:nth-child(2n){
+	background: lightblue;
+}
+button{
+	width: 55px;
+	height: 52px;
+
+	padding: 4px 12px;
+	outline: none;
+	border-radius: 4px;
+}
+.delet{
+	background: #43dfff;
+}
+.add{
+	background: #047086;
+	float: right;
+	margin-right:5px ;
+	margin-top: 14px;
+/* 	border-bottom: 1px solid cyan; */
+}

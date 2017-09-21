@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>留言板</title>
+	<script src="liuyanban.js"></script>
+	<script src="function.js"></script>
+	<style>
+	*{  
+		padding: 0;
+		margin: 0;
+		list-style: none;
+		text-decoration: none;
+		resize: none;
+	}
+	   main{
+	   	width: 800px;
+	   	height: auto;
+	   	background: white;
+	   	margin: 0 auto;
+	   }
+		.messageboard1{
+			width: 500px;
+			height: 401px;
+			background:gray;
+
+		}
+		.messagetitle{
+			width: 500px;
+			height: 100px;
+			background: lightblue;
+		}
+		textarea{
+			width: 500px;
+			height: 270px;
+			background: white;
+	/* 		border-top: 1px solid #333333; */
+			font-size: 12px;
+			color: black;
+			outline: none;
+		}
+		.submit{
+			width: 500px;
+		/* 	height: 150px; */
+		/* 	background: lightblue; */
+			border: 1px solid gray;
+			outline: none;
+		}
+		.submit li{
+			width: 500px;
+			height: 150px;
+		/* 	background: lightblue; */
+			border: 1px solid gray;
+		}
+		.submit li img{
+			width: 50px;
+			height: 50px;
+		}
+		.giveup{
+			width: 50px;
+			height: 50px;
+			background: white;
+			float: left;
+			margin-top: 25px;
+			font-size: 15px;
+		    outline: none;
+
+		}
+		.success{
+			width: 50px;
+
+			height: 50px;
+			background: white;
+			float: right;
+			margin-top: 25px;
+			font-size:15px;
+			outline: none;
+
+		}
+		.textword{
+		    width: 500px;
+			height: 30px;
+		/* 	background: cyan; */
+			font-size: 12px;
+			color: black;
+			line-height: 30px;
+			border-left: 1px solid gray;
+			border-right: 1px solid gray;
+		}
+		span{
+			font-size: 12px;
+			color: red;
+		}
+		input{
+			width: 500px;
+			height: 30px;
+			font-size: 12px;
+			outline: none; 
+
+		}
+		.submittitle{
+			width: 500px;
+			height: 120px;
+			background: cyan;
+		}
+		.pingluqu{
+			width: 500px;
+			height:auto;
+	/* 		background: lightblue; */
+
+		}
+		h2{
+			width: 500px;
+		/* 	background: lightblue; */
+			border-top: 1px solid gray;
+			border-left: 1px solid gray;
+			border-right: 1px solid gray;
+		}
+	/* 	.box{
+           border: 1px solid lightblue;
+
+		} */
+     /*   #weiwo{
+       	width: 100px;
+       	height: 100px;
+       	float: left;
+       }
+       .right{
+       	float: left;
+       	width: calc(100% - 100px);
+       	background: pink;
+       } */
+       /* 自适应calc */
+      
+	</style>
+</head>
+<body>
+	<!-- <div class="messageboard1"></div>
+	<div class="messageboard2"></div> -->
+<!-- 	  <div class="box" style="width: 200px;height: 100px;background:lightblue">
+     	  <img src="500562440.jpg" alt="" id="weiwo">
+     	  <div class="right"></div>
+     </div> -->
+        <main>
+	        <div class="messageboard1">
+	            <div class="messagetitle">
+	                <button class="giveup">取消</button>
+	    	        <button class="success">提交</button>
+	            </div>
+	            <input type="text" placeholder="请输入你的姓名">
+	              <textarea maxLength="100" name="" id="" cols="30" rows="10"></textarea>
+	            </div>
+	    
+
+	        <div class="textword">
+		        <div class="tip">还能输入<span>100</span>个字</div>
+
+	        </div>
+	        <div class="pingluqu">
+
+	           <h2>评论区</h2>
+	           <ul class="submit">
+
+	   	             <li>
+	   	                <img src="500562440.jpg" alt="">
+	   	                <div>
+	   	                   <h3>古云</h3>
+	   	                   <p>时间若白驹过隙，所谓的过往恰昨夜在雨中湮灭的一缕青烟，无人问，无人低下眉头，为那烟，为那雨，去吟一首悲歌，犹记者，了了，却已足以</p>
+	   	                </div>
+		<!--   <div class="submittitle"></div> -->
+	   	             </li>
+	   	             <li>
+	   	<!--   <input type="text" placeholder="姓名"> -->
+		 <!--  <div class="submittitle"></div> -->
+	   	             </li>
+	   	             <li>
+	   	<!-- 	<input type="text" placeholder="姓名"> -->
+		  <!-- <div class="submittitle"></div> -->
+	   	             </li>
+	   	             <li>
+	   		<!--  <input type="text" placeholder="姓名"> -->
+		    <!--  <div class="submittitle"></div> -->
+	   	             </li>
+	           </ul>
+		  
+	        </div>
+     </main>
+   
+</body>
+</html>
+<script>
+	  //留言板textarea   剩余的字数=总数-输入
+    //                    100-str.length
+    //  1.获取内容   value  innerText
+    //  2、>100   maxlength
+    //  提交  shift+enter
+    //       1、文本域保存 清空
+    //       2、插入
+    //       let ele=document.createElement()
+    //       ele.innerText=
+    //       
+    // let   textarea=document.querySelector("#weibopinglun");
+
+</script>

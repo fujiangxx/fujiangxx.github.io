@@ -1,0 +1,78 @@
+/*
+* @Author: Fujiang
+* @Date:   2017-08-22 22:32:46
+* @Last Modified by:   Fujiang
+* @Last Modified time: 2017-08-23 16:37:33
+*/
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	text-decoration: none;
+}
+header{
+	width: 100%;
+	height: 20px;
+	/* background: lightblue; */
+}
+main{
+   width: 1226px;
+   height: auto;
+   margin: 0 auto;
+}
+.headerright{
+	width: 600px;
+	height: 20px;
+	/* background: red; */
+	float: right;
+}
+.headerright ul{
+    width: 600px;
+	height: 20px;
+	display: flex;
+	justify-content: space-around;
+}
+span{
+   color: #000000;
+   font-size: 14px;
+}
+
+.headerright ul li{
+	/* display: block; */
+	color: #0084BB;
+}
+.headerlogin{
+	color: #0084BB;
+}
+.headerregister{
+	color: #0084BB;
+}
+/* .headerright ul li a{
+	color: #000000;
+} */
+.headermessage{
+	width: auto;
+	height: 20px;
+	position: relative;
+	padding-left: 2px;
+	padding-right: 2px;
+	color: #000000;
+}
+.messageword{
+	display: block;
+	color:#000000;
+}
+.messageicon{
+	width: 10px;
+	height: 10px;
+
+
+}
+.haedrline1{
+	width: 0;
+	height: 10px;
+	border-left: 1px solid gray;
+	position: absolute;
+	left: 0;
+	top: 5px;
+}
