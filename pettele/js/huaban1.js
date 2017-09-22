@@ -2,7 +2,7 @@
 * @Author: Fujiang
 * @Date:   2017-08-28 22:29:09
 * @Last Modified by:   Fujiang
-* @Last Modified time: 2017-09-03 16:09:06
+* @Last Modified time: 2017-09-22 11:20:47
 */
 function palette(canvas,mask){
     this.canvas = canvas;
@@ -272,7 +272,7 @@ palette.prototype = {
         that.ctx.clearRect(0,0,that.wid,that.hei);
         if(that.history.length>0){
                   //将最后一条历史记录放入
-                  that.ctx.putImageData(that.history[that.history.length-1],0,0)
+                  that.ctx.putImageData(that.history[that.history.length-1],0,0);
                 }
         that.ctx.lineTo(cx,cy);
 //        that.ctx.closePath()
