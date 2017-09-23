@@ -2,7 +2,7 @@
 * @Author: Fujiang
 * @Date:   2017-08-30 23:49:21
 * @Last Modified by:   Fujiang
-* @Last Modified time: 2017-09-03 20:39:32
+* @Last Modified time: 2017-09-23 21:28:43
 */
 window.onload=function(){
 	  let song=document.querySelector(".song");
@@ -45,7 +45,7 @@ window.onload=function(){
         	i=0;
         }
         return database[i];
-	}
+	} 
 
 	//播放时间
 	audio.ontimeupdate = function(){
